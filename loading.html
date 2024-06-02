@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .loading {
+            text-align: center;
+        }
+
+        .loading h1 {
+            font-size: 24px;
+        }
+
+        .loading img {
+            width: 150px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <h1>Loading...</h1>
+        <img src="https://s6.ezgif.com/tmp/ezgif-6-1115b8dd11.gif" alt="Loading Animation">
+    </div>
+    <script>
+        // Simulate loading time
+        setTimeout(function() {
+            window.location.href = "index.html"; // Redirect to your game page
+        }, 3000); // Change 3000 to the desired loading time in milliseconds
+    </script>
+</body>
+</html>
